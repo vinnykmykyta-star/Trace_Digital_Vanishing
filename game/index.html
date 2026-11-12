@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Trace: Digital Vanishing</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Jura:wght@500;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Розмітку вставляє js/ui/layout.js. Порядок скриптів важливий: дані -> ядро -> інтерфейс -> main -->
+<script src="js/shared/utils.js"></script>
+<script src="js/ui/layout.js"></script>
+
+<!-- Геймдизайнер -->
+<script src="js/design/balance.js"></script>
+<script src="js/design/missions.js"></script>
+<script src="js/design/assets.js"></script>
+<script src="js/design/terminal-content.js"></script>
+
+<!-- Розробник ядра -->
+<script src="js/core/state.js"></script>
+<script src="js/core/loop.js"></script>
+<script src="js/core/safehouse.js"></script>
+<script src="js/core/board-logic.js"></script>
+<script src="js/core/cyberkit.js"></script>
+<script src="js/core/end.js"></script>
+<script src="js/core/terminal.js"></script>
+
+<!-- Розробник інтерфейсу -->
+<script src="js/ui/sound.js"></script>
+<script src="js/ui/hud.js"></script>
+<script src="js/ui/board-view.js"></script>
+<script src="js/ui/windows.js"></script>
+<script src="js/ui/views.js"></script>
+<script src="js/ui/browser.js"></script>
+<script src="js/ui/terminal-input.js"></script>
+<script src="js/ui/boot.js"></script>
+<script src="js/ui/menu.js"></script>
+
+<!-- Керівник проєкту -->
+<script src="js/main.js"></script>
+</body>
+</html>
